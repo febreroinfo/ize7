@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Izer</title>
+<meta name="description" content="Random facts by country."/>
+<meta name="keywords" content="Jose Febrero, JSON, Array, Randomizer, Country, Asia, Izer"/>
+<meta name="theme-color" content="#166506"/>
+<meta property="og:site_name" content="Jose Febrero, JSON, Array, Randomizer, Country, Asia, Izer"/>
+<meta property="og:title" content="Izer"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://github.com/febreroinfo/"/>
+<meta property="og:description" content="Random facts by country."/>
+<meta property="og:image" content="./assets/images/izer.png"/>
+<link rel="icon" href="./assets/images/favicon/favicon.ico" sizes="16x16"/>
+<link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg"/>
+<link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png"/>
+<link rel="manifest" href="./assets/images/favicon/manifest.json"/>
+<link rel="stylesheet" href="./assets/styles/main.min.css"/></head>
+<body>
+<header class="navbar">
+<a href="#home" aria-label="Skip to Content" class="skip">Skip to Content</a>
+<a href="/" target="_self" title="home">
+<span class="logo">
+<img src="./assets/images/svg/izer.svg" width="85" height="27" alt="Izer"/></span></a>
+<nav>
+<button id="menu">Info</button></nav></header>
+<main class="content">
+<section id="home" data-open="open" class="content__item">
+<div class="random">
+<div class="random__content">
+<div class="random__header">
+<h1>Did you know?</h1>
+<div id="option" class="random__option">
+<button id="select" aria-expanded="false" aria-haspopup="true" title="Facts by Country" class="random__select">
+<span class="random__icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="filter__icon">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+<path d="M4 6l8 0"></path>
+<path d="M16 6l4 0"></path>
+<path d="M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+<path d="M4 12l2 0"></path>
+<path d="M10 12l10 0"></path>
+<path d="M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+<path d="M4 18l11 0"></path>
+<path d="M19 18l1 0"></path></svg></span>
+<span class="random__mobile">Facts by Country</span></button></div></div>
+<div id="fact" class="random__result"></div>
+<div class="random__footer">
+<button id="roll" class="random__more">Show Another Fact</button></div></div></div></section>
+<section id="info" data-open="false" class="content__item">
+<article>
+<h2>What is it?</h2>
+<p>An interactive country fact randomizer.</p></article>
+<article>
+<h2>Why was it made?</h2>
+<p>Provide a fun way to deliver information and keep viewers engaged by making it interactive.</p></article></section></main>
+<footer>
+<p>
+<span>Made with&nbsp;</span>
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="footer__icon">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" class="icon__active"></path>
+<path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" class="icon__active"></path>
+<path d="M12.5 15.5l2 2" class="icon__active"></path>
+<path d="M15 13l2 2" class="icon__active"></path></svg></span>
+<span>&nbsp;by FebreroInfo. 2023</span></p>
+<ul>
+<li>
+<a href="https://github.com/febreroinfo" target="_blank" rel="noopener noreferrer">Github</a></li>
+<li>
+<a href="https://codepen.io/febreroinfo" target="_blank" rel="noopener noreferrer">Codepen</a></li>
+<li>
+<a id="email" href="#" data-email="false" tabindex="0">Contact</a></li></ul>
+<figure id="status" data-open="false" aria-label="Network Status" class="network">
+<span id="online" data-open="false" class="network__online">Hurray! Internet is back online.</span>
+<span id="offline" data-open="false" class="network__offline">Opps! Internet is offline.</span></figure></footer></body>
+<script defer=" " src="./assets/scripts/main.min.js"></script></html>
